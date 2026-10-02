@@ -18,6 +18,13 @@ Global custom instructions for development work in GitHub Codespaces.
 - Create a separate branch for each development item.
 - Never mix multiple development items in a single branch.
 
+## Working from Issues
+
+- When starting work from an issue, record the work details, decisions made,
+  and other relevant notes as comments on the issue.
+- Keep the issue body up to date so that the final specification always
+  remains in the issue body.
+
 ## Development Workflow
 
 1. Create a plan first, before writing any code.
