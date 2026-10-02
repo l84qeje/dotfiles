@@ -37,8 +37,12 @@ Global custom instructions for development work in GitHub Codespaces.
 
 - When the implementation is complete, hand the changes to a dedicated review
   agent.
+- Use a mid-tier model (e.g., Sonnet) for the review agent by default.
+- Use a premium model (e.g., Opus) only for large or security-sensitive
+  changes.
 - Fix the findings and have the changes reviewed again. Repeat this cycle
-  until the review agent reports no further issues.
+  until the review agent reports no further issues, up to 3 rounds. If issues
+  remain after that, report them to the user.
 
 ## Pull Requests and the Copilot Review Loop
 
